@@ -59,19 +59,13 @@ Abaixo da apresentação existe um terminal interativo onde o visitante poderá 
 
 #### Seção `/sobre`
 
-![Protótipo da seção Sobre](prototipos/prototipo-sobre.png)
+![Protótipo da seção Sobre](prototipos/sobre.png)
 
 Apresentará informações sobre o desenvolvedor, sua trajetória, formação e principais características profissionais.
 
-#### Seção `/habilidades`
-
-![Protótipo da seção Habilidades](prototipos/Habilidades.png)
-
-Apresentará as principais tecnologias, ferramentas e habilidades utilizadas no desenvolvimento dos projetos.
-
 #### Seção `/projetos`
 
-![Protótipo da seção Projetos](prototipos/prototipo-projetos.png)
+![Protótipo da seção Projetos](prototipos/projetos.png)
 
 Apresentará os projetos desenvolvidos, com suas respectivas descrições, tecnologias utilizadas e links.
 
@@ -83,7 +77,7 @@ Apresentará experiências profissionais, formação acadêmica e outras informa
 
 #### Seção `/contato`
 
-![Protótipo da seção Contato](prototipos/prototipo-contato.png)
+![Protótipo da seção Contato](prototipos/contato.png)
 
 Apresentará as formas de contato e links para redes profissionais.
 
@@ -96,12 +90,6 @@ Apresentará as formas de contato e links para redes profissionais.
 ```
 
 Exibe informações sobre o desenvolvedor.
-
-```text
-/habilidades
-```
-
-Exibe as tecnologias e habilidades.
 
 ```text
 /projetos
@@ -146,16 +134,12 @@ portfolio/
 ├── Gabriel Marcondes Starling Rocha NEW PTBR.pdf
 ├── Gabriel Marcondes Starling Rocha NEW EN.pdf
 │
-├── assets/
-│   ├── images/
-│   │   ├── prototipo-inicial.png
-│   │   ├── prototipo-sobre.png
-│   │   ├── prototipo-habilidades.png
-│   │   ├── prototipo-projetos.png
-│   │   ├── prototipo-curriculo.png
-│   │   └── prototipo-contato.png
-│   │
-│   └── gifs/
+├── prototipos/
+│   ├── TelaInicial.png
+│   ├── sobre.png
+│   ├── projetos.png
+│   ├── Curriculo.png
+│   └── contato.png
 │
 ├── css/
 │   ├── style.css
@@ -218,6 +202,3 @@ A ideia é proporcionar ao visitante a sensação de estar explorando um termina
 * [x] Substituir os textos fictícios pelas informações reais
 * [ ] Implementar responsividade para celular
 * [ ] Realizar testes de usabilidade e navegação
-
-
-
