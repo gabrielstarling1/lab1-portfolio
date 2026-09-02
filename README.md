@@ -6,7 +6,7 @@ A proposta é apresentar informações profissionais de forma interativa, permit
 
 ## Site publicado
 
-Ainda não há uma URL de produção configurada. Após publicar a pasta `portfolio/` em um serviço estático, substitua este texto pelo endereço final, por exemplo: `https://seu-projeto.vercel.app`.
+https://portfolio-starlingos.netlify.app
 
 ## Tecnologias utilizadas
 
