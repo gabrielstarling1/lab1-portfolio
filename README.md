@@ -22,9 +22,9 @@ Ainda n√£o h√° uma URL de produ√ß√£o configurada. Ap√≥s publicar a pasta `portfo
 3. Inicie o servidor local com `npm run dev`.
 4. Abra o endere√ßo exibido pelo `live-server`.
 
-O formul√°rio valida nome, e-mail e mensagem e abre o aplicativo de e-mail padr√£o usando `mailto:gabriel767@gmail.com`. Para receber envios diretamente no servidor, substitua esse fluxo por um servi√ßo como Formspree ou por uma API pr√≥pria.
+O formul√°rio valida nome, e-mail e mensagem e abre o aplicativo de e-mail padr√£o usando `mailto:gabrielmsrocha@gmail.com`. Para receber envios diretamente no servidor, substitua esse fluxo por um servi√ßo como Formspree ou por uma API pr√≥pria.
 
-O curr√≠culo usado pelo sistema √© `portfolio/CV Rafael Nagem Gabriel-5.pdf`. No OS, selecione **Curr√≠culo PDF** e pressione `Enter`. O visualizador PDF.js permite navegar pelas p√°ginas, ajustar o zoom, baixar o arquivo e abrir outro PDF local pelo bot√£o **Abrir PDF**.
+O curr√≠culo usado pelo sistema s√£o `portfolio/Gabriel Marcondes Starling Rocha EN.pdf` para l√≠ngua inglesa e `portfolio/Gabriel Marcondes Starling Rocha PTBR` para l√≠ngua portuguesa. No OS, selecione **Curr√≠culo PDF** e pressione `Enter`. O visualizador PDF.js permite navegar pelas p√°ginas, ajustar o zoom, baixar o arquivo e abrir outro PDF local pelo bot√£o **Abrir PDF**.
 
 Para publicar, conecte o reposit√≥rio ao Vercel, Render ou GitHub Pages e defina `portfolio/` como diret√≥rio raiz de publica√ß√£o. Depois atualize a se√ß√£o **Site publicado** com a URL real.
 
@@ -41,16 +41,16 @@ Abaixo est√° o prot√≥tipo inicial da p√°gina:
 A tela inicial apresenta uma identidade visual baseada em terminal:
 
 ```text
-rafael@portfolio:~$ whoami
+gabriel@portfolio:~$ whoami
 
-_______
-|__   __|       _
-   | | ___  ___| |_
-   | |/ _ \/ __| __||/ _ \
-   | |  __/\__ \ |_||  __/
-   |_|\___||___/\__| \___|
+¶¶¶¶¶¶¶+¶¶¶¶¶¶¶¶+¶¶¶¶¶+ ¶¶¶¶¶¶+ ¶¶+     ¶¶+¶¶¶+   ¶¶+ ¶¶¶¶¶¶+
+   ¶¶+----++--¶¶+--+¶¶+--¶¶+¶¶+--¶¶+¶¶¶     ¶¶¶¶¶¶¶+  ¶¶¶¶¶+----+
+   ¶¶¶¶¶¶¶+   ¶¶¶   ¶¶¶¶¶¶¶¶¶¶¶¶¶¶++¶¶¶     ¶¶¶¶¶+¶¶+ ¶¶¶¶¶¶  ¶¶¶+
+   +----¶¶¶   ¶¶¶   ¶¶+--¶¶¶¶¶+--¶¶+¶¶¶     ¶¶¶¶¶¶+¶¶+¶¶¶¶¶¶   ¶¶¶
+   ¶¶¶¶¶¶¶¶   ¶¶¶   ¶¶¶  ¶¶¶¶¶¶  ¶¶¶¶¶¶¶¶¶¶+¶¶¶¶¶¶ +¶¶¶¶¶+¶¶¶¶¶¶++
+   +------+   +-+   +-+  +-++-+  +-++------++-++-+  +---+ +-----+
 
-TESTE
+STARLING
 ```
 
 Abaixo da apresenta√ß√£o existe um terminal interativo onde o visitante poder√° digitar comandos para acessar as diferentes se√ß√µes do portfolio.
@@ -142,7 +142,7 @@ portfolio/
 ‚îÇ
 ‚îú‚îÄ‚îÄ index.html
 ‚îú‚îÄ‚îÄ README.md
-‚îú‚îÄ‚îÄ CV Rafael Nagem Gabriel-5.pdf
+‚îú‚îÄ‚îÄ Gabriel Marcondes Starling Rocha NEW PTBR.pdf
 ‚îÇ
 ‚îú‚îÄ‚îÄ assets/
 ‚îÇ   ‚îú‚îÄ‚îÄ images/
@@ -213,4 +213,5 @@ A ideia √© proporcionar ao visitante a sensa√ß√£o de estar explorando um termina
 * [ ] Substituir os textos fict√≠cios pelas informa√ß√µes reais
 * [ ] Implementar responsividade para celular
 * [ ] Realizar testes de usabilidade e navega√ß√£o
+
 

@@ -423,13 +423,30 @@ function showContact() {
 
     const data =
         portfolioData[currentLanguage].contact;
+        
+    const i18n = currentLanguage === 'pt' ? {
+        nameLabel: 'Nome',
+        namePlaceholder: 'Seu nome',
+        emailLabel: 'E-mail',
+        emailPlaceholder: 'seu@email.com',
+        messageLabel: 'Mensagem',
+        messagePlaceholder: 'Digite sua mensagem...',
+        submitBtn: 'Enviar mensagem'
+    } : {
+        nameLabel: 'Name',
+        namePlaceholder: 'Your name',
+        emailLabel: 'Email',
+        emailPlaceholder: 'your@email.com',
+        messageLabel: 'Message',
+        messagePlaceholder: 'Type your message...',
+        submitBtn: 'Send message'
+    };
 
     const section = document.createElement("section");
 
     section.className = "content-section";
 
     section.innerHTML = `
-
         <h2>
             <i class="fa-solid fa-address-card"></i>
             ${data.title}
@@ -452,10 +469,12 @@ function showContact() {
 
 
                 <a
-                    href="tel:+5531992578699"
+                    href="https://wa.me/5531997137211"
                     class="contact-item"
+                    target="_blank"
+                    rel="noopener noreferrer"
                 >
-                    <i class="fa-solid fa-phone"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
 
                     <span>
                         ${data.phone}
@@ -464,7 +483,7 @@ function showContact() {
 
 
                 <a
-                    href="${data.github}"
+                    href="https://github.com/gabrielstarling1"
                     class="contact-item"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -478,7 +497,7 @@ function showContact() {
 
 
                 <a
-                    href="${data.linkedin}"
+                    href="https://www.linkedin.com/in/gabriel-marcondes-starling-rocha-a881a423a/"
                     class="contact-item"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -498,14 +517,14 @@ function showContact() {
                 <div class="form-group">
 
                     <label for="name">
-                        Nome
+                        ${i18n.nameLabel}
                     </label>
 
                     <input
                         type="text"
                         id="name"
                         name="name"
-                        placeholder="Seu nome"
+                        placeholder="${i18n.namePlaceholder}"
                         autocomplete="name"
                         required
                     >
@@ -516,14 +535,14 @@ function showContact() {
                 <div class="form-group">
 
                     <label for="email">
-                        E-mail
+                        ${i18n.emailLabel}
                     </label>
 
                     <input
                         type="email"
                         id="email"
                         name="email"
-                        placeholder="seu@email.com"
+                        placeholder="${i18n.emailPlaceholder}"
                         autocomplete="email"
                         required
                     >
@@ -534,14 +553,14 @@ function showContact() {
                 <div class="form-group">
 
                     <label for="message">
-                        Mensagem
+                        ${i18n.messageLabel}
                     </label>
 
                     <textarea
                         id="message"
                         name="message"
                         rows="5"
-                        placeholder="Digite sua mensagem..."
+                        placeholder="${i18n.messagePlaceholder}"
                         aria-describedby="formMessage"
                         required
                     ></textarea>
@@ -553,7 +572,7 @@ function showContact() {
 
                     <i class="fa-solid fa-paper-plane"></i>
 
-                    Enviar mensagem
+                    ${i18n.submitBtn}
 
                 </button>
 
@@ -574,7 +593,7 @@ function showContact() {
 
 
 /* =========================
-   FORMULÃRIO
+   FORMULÁRIO
 ========================= */
 
 function setupContactForm() {
@@ -644,7 +663,7 @@ function setupContactForm() {
 
 
         window.location.href =
-            `mailto:gabriel767@gmail.com?subject=${subject}&body=${body}`;
+            `mailto:gabrielmsrocha@gmail.com?subject=${subject}&body=${body}`;
 
 
         formMessage.textContent =
@@ -883,4 +902,6 @@ window.addEventListener("load", () => {
     }
 
 });
+
+
 
