@@ -34,9 +34,9 @@ Para publicar, conecte o repositório ao Vercel, Render, Netlify ou GitHub Pages
 
 Abaixo está o protótipo inicial da página:
 
-![Protótipo da interface inicial](portfolio/assets/images/prototipo-inicial.png)
+![Protótipo da interface inicial](prototipos/TelaInicial.png)
 
-> **Observação:** substituir `assets/images/prototipo-inicial.png` pela imagem real do protótipo.
+> **Observação:** substituir `prototipos/TelaInicial.png` pela imagem real do protótipo.
 
 A tela inicial apresenta uma identidade visual baseada em terminal:
 
@@ -59,35 +59,35 @@ Abaixo da apresentação existe um terminal interativo onde o visitante poderá 
 
 #### Seção `/sobre`
 
-![Protótipo da seção Sobre](portfolio/assets/images/prototipo-sobre.png)
+![Protótipo da seção Sobre](prototipos/prototipo-sobre.png)
 
 Apresentará informações sobre o desenvolvedor, sua trajetória, formação e principais características profissionais.
 
 #### Seção `/habilidades`
 
-![Protótipo da seção Habilidades](portfolio/assets/images/prototipo-habilidades.png)
+![Protótipo da seção Habilidades](prototipos/Habilidades.png)
 
 Apresentará as principais tecnologias, ferramentas e habilidades utilizadas no desenvolvimento dos projetos.
 
 #### Seção `/projetos`
 
-![Protótipo da seção Projetos](portfolio/assets/images/prototipo-projetos.png)
+![Protótipo da seção Projetos](prototipos/prototipo-projetos.png)
 
 Apresentará os projetos desenvolvidos, com suas respectivas descrições, tecnologias utilizadas e links.
 
 #### Seção `/curriculo`
 
-![Protótipo da seção Currículo](portfolio/assets/images/prototipo-curriculo.png)
+![Protótipo da seção Currículo](prototipos/Curriculo.png)
 
 Apresentará experiências profissionais, formação acadêmica e outras informações relevantes.
 
 #### Seção `/contato`
 
-![Protótipo da seção Contato](portfolio/assets/images/prototipo-contato.png)
+![Protótipo da seção Contato](prototipos/prototipo-contato.png)
 
 Apresentará as formas de contato e links para redes profissionais.
 
-> **Observação:** as imagens acima representam os locais previstos para os protótipos. Os arquivos podem ser adicionados posteriormente na pasta `assets/images/`.
+> **Observação:** as imagens acima representam os locais previstos para os protótipos. Os arquivos podem ser adicionados posteriormente na pasta `prototipos/`.
 
 ## Comandos disponíveis
 
@@ -218,4 +218,6 @@ A ideia é proporcionar ao visitante a sensação de estar explorando um termina
 * [x] Substituir os textos fictícios pelas informações reais
 * [ ] Implementar responsividade para celular
 * [ ] Realizar testes de usabilidade e navegação
+
+
 
