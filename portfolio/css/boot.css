@@ -1,5 +1,5 @@
 /* =========================================================
-   VOLPINI OS - BOOT
+   Starling OS - BOOT
 ========================================================= */
 
 .boot-screen {
@@ -54,7 +54,7 @@
 
 .bios-header {
 
-    color: #00f5a0;
+    color: var(--green);
 
     font-size: 24px;
 
@@ -88,7 +88,7 @@
 
 .boot-ok {
 
-    color: #00f5a0;
+    color: var(--green);
 
 }
 
@@ -121,7 +121,7 @@
 
     height: 100%;
 
-    background: #00f5a0;
+    background: var(--green);
 
     box-shadow:
         0 0 10px rgba(0, 245, 160, .5);
@@ -133,7 +133,7 @@
 
 .boot-percentage {
 
-    color: #00f5a0;
+    color: var(--green);
 
     margin-top: 8px;
 
@@ -155,7 +155,7 @@
 
 .boot-continue span {
 
-    color: #00f5a0;
+    color: var(--green);
 
 }
 
@@ -194,3 +194,5 @@
     }
 
 }
+
+

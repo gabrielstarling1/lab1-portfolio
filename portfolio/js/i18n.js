@@ -1,5 +1,5 @@
 /* =========================================================
-   VOLPINI OS - SISTEMA DE IDIOMAS
+   Starling OS - SISTEMA DE IDIOMAS
 ========================================================= */
 
 const translations = {
@@ -89,7 +89,7 @@ const translations = {
 function getLanguage() {
 
     return localStorage.getItem(
-        "volpini-language"
+        "gabriel-language"
     ) || "pt";
 
 }
@@ -106,7 +106,7 @@ function setLanguage(language) {
     }
 
     localStorage.setItem(
-        "volpini-language",
+        "gabriel-language",
         language
     );
 
@@ -214,3 +214,4 @@ document.addEventListener(
     "DOMContentLoaded",
     applyLanguage
 );
+

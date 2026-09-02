@@ -15,25 +15,25 @@
 
 :root {
 
-    --background: #242832;
+    --background: #282a36;
 
-    --terminal-dark: #1d222c;
+    --terminal-dark: #21222c;
 
-    --green: #00f5a0;
+    --green: #bd93f9;
 
-    --green-dark: #00b879;
+    --green-dark: #ff79c6;
 
-    --text: #e6edf3;
+    --text: #f8f8f2;
 
-    --text-secondary: #c4cfde;
+    --text-secondary: #6272a4;
 
-    --blue: #a9c4e5;
+    --blue: #8be9fd;
 
-    --yellow: #ffb52e;
+    --yellow: #f1fa8c;
 
-    --red: #ff5c6c;
+    --red: #ff5555;
 
-    --border: #00e89a;
+    --border: #bd93f9;
 
 }
 

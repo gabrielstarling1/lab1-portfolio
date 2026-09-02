@@ -1,5 +1,5 @@
 /* =========================================================
-   VOLPINI OS - BOOT
+   Starling OS - BOOT
 ========================================================= */
 
 const bootScreen =
@@ -33,7 +33,7 @@ const bootSteps = [
 
     "Loading applications .. OK",
 
-    "Starting Volpini OS ... OK"
+    "Starting Starling OS ... OK"
 
 ];
 
@@ -205,3 +205,4 @@ window.addEventListener(
 
     }
 );
+

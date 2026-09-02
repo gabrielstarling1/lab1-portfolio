@@ -1,5 +1,5 @@
 let currentLanguage =
-    localStorage.getItem("volpini-language") || "pt";
+    localStorage.getItem("gabriel-language") || "pt";
 
 const commandInput = document.getElementById("commandInput");
 const terminalOutput = document.getElementById("terminalOutput");
@@ -9,7 +9,7 @@ const enBtn = document.getElementById("enBtn");
 
 const systemLanguage =
     localStorage.getItem(
-        "volpini-language"
+        "gabriel-language"
     ) || "pt";
 
 
@@ -51,7 +51,7 @@ applyTerminalLanguage();
 
 window.addEventListener("storage", (event) => {
 
-    if (event.key !== "volpini-language") {
+    if (event.key !== "gabriel-language") {
         return;
     }
 
@@ -644,7 +644,7 @@ function setupContactForm() {
 
 
         window.location.href =
-            `mailto:volpini767@gmail.com?subject=${subject}&body=${body}`;
+            `mailto:gabriel767@gmail.com?subject=${subject}&body=${body}`;
 
 
         formMessage.textContent =
@@ -883,3 +883,4 @@ window.addEventListener("load", () => {
     }
 
 });
+

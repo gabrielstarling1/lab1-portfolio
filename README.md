@@ -1,4 +1,4 @@
-# Terminal Portfolio — Volpini OS
+# Terminal Portfolio — Starling OS
 
 Portfolio pessoal desenvolvido com uma interface inspirada em um terminal de computador.
 
@@ -22,9 +22,9 @@ Ainda não há uma URL de produção configurada. Após publicar a pasta `portfo
 3. Inicie o servidor local com `npm run dev`.
 4. Abra o endereço exibido pelo `live-server`.
 
-O formulário valida nome, e-mail e mensagem e abre o aplicativo de e-mail padrão usando `mailto:volpini767@gmail.com`. Para receber envios diretamente no servidor, substitua esse fluxo por um serviço como Formspree ou por uma API própria.
+O formulário valida nome, e-mail e mensagem e abre o aplicativo de e-mail padrão usando `mailto:gabriel767@gmail.com`. Para receber envios diretamente no servidor, substitua esse fluxo por um serviço como Formspree ou por uma API própria.
 
-O currículo usado pelo sistema é `portfolio/CV Rafael Nagem Volpini-5.pdf`. No OS, selecione **Currículo PDF** e pressione `Enter`. O visualizador PDF.js permite navegar pelas páginas, ajustar o zoom, baixar o arquivo e abrir outro PDF local pelo botão **Abrir PDF**.
+O currículo usado pelo sistema é `portfolio/CV Rafael Nagem Gabriel-5.pdf`. No OS, selecione **Currículo PDF** e pressione `Enter`. O visualizador PDF.js permite navegar pelas páginas, ajustar o zoom, baixar o arquivo e abrir outro PDF local pelo botão **Abrir PDF**.
 
 Para publicar, conecte o repositório ao Vercel, Render ou GitHub Pages e defina `portfolio/` como diretório raiz de publicação. Depois atualize a seção **Site publicado** com a URL real.
 
@@ -142,7 +142,7 @@ portfolio/
 │
 ├── index.html
 ├── README.md
-├── CV Rafael Nagem Volpini-5.pdf
+├── CV Rafael Nagem Gabriel-5.pdf
 │
 ├── assets/
 │   ├── images/
@@ -213,3 +213,4 @@ A ideia é proporcionar ao visitante a sensação de estar explorando um termina
 * [ ] Substituir os textos fictícios pelas informações reais
 * [ ] Implementar responsividade para celular
 * [ ] Realizar testes de usabilidade e navegação
+

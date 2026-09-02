@@ -1,5 +1,5 @@
 /* =========================================================
-   VOLPINI OS
+   Starling OS
 ========================================================= */
 
 .os-screen {
@@ -78,7 +78,7 @@
 
     gap: 12px;
 
-    color: #00f5a0;
+    color: var(--green);
 
     font-weight: bold;
 
@@ -115,12 +115,12 @@
 
     height: 8px;
 
-    background: #00f5a0;
+    background: var(--green);
 
     border-radius: 50%;
 
     box-shadow:
-        0 0 8px #00f5a0;
+        0 0 8px var(--green);
 
 }
 
@@ -192,7 +192,7 @@
 
 .welcome h1 span {
 
-    color: #00f5a0;
+    color: var(--green);
 
 }
 
@@ -267,7 +267,7 @@
 .application-card:hover,
 .application-card.selected {
 
-    border-color: #00f5a0;
+    border-color: var(--green);
 
     background:
         rgba(0, 245, 160, .05);
@@ -299,7 +299,7 @@
 
     border: 1px solid #425063;
 
-    color: #00f5a0;
+    color: var(--green);
 
     font-size: 22px;
 
@@ -311,7 +311,7 @@
 .application-card.selected
 .application-icon {
 
-    border-color: #00f5a0;
+    border-color: var(--green);
 
     background:
         rgba(0, 245, 160, .08);
@@ -355,7 +355,7 @@
 .application-card.selected
 .application-key {
 
-    color: #00f5a0;
+    color: var(--green);
 
 }
 
@@ -410,7 +410,7 @@
 
     background: #171c23;
 
-    border: 1px solid #00f5a0;
+    border: 1px solid var(--green);
 
     box-shadow:
         0 20px 70px rgba(0, 0, 0, .6);
@@ -564,7 +564,7 @@
 
 .pdf-file-label {
 
-    color: #00f5a0;
+    color: var(--green);
 
 }
 
@@ -576,7 +576,7 @@
 .pdf-download:hover,
 .pdf-download:focus-visible {
 
-    border-color: #00f5a0;
+    border-color: var(--green);
     color: #ffffff;
     outline: 3px solid #ffcf5a;
     outline-offset: 2px;
@@ -722,7 +722,7 @@
 .language-selector:hover,
 .language-selector:focus-within {
 
-    border-color: #00f5a0;
+    border-color: var(--green);
     background: #1c252e;
 
 }
@@ -766,8 +766,8 @@
 .language-option.active {
 
     color: #08130f;
-    background: #00f5a0;
-    border-color: #00f5a0;
+    background: var(--green);
+    border-color: var(--green);
 
 }
 
@@ -811,3 +811,5 @@
     }
 
 }
+
+

@@ -1,5 +1,5 @@
 /* =========================================================
-   VOLPINI OS
+   Starling OS
 ========================================================= */
 
 const languageOptions =
@@ -50,7 +50,7 @@ const applications = [
 
     {
         id: "terminal",
-        title: "Volpini Terminal"
+        title: "Gabriel Terminal"
     },
 
     {
@@ -153,9 +153,9 @@ function loadTerminal() {
                 min-height: 600px;
                 border: none;
                 display: block;
-                background: #242832;
+                background: var(--background);
             "
-            title="Volpini Terminal"
+            title="Gabriel Terminal"
         ></iframe>
 
     `;
@@ -169,7 +169,10 @@ function loadTerminal() {
 
 function loadResume() {
 
-    const resumePdfPath = "CV%20Rafael%20Nagem%20Volpini-5.pdf";
+    const lang = typeof getLanguage === 'function' ? getLanguage() : 'pt';
+    const resumePdfPath = lang === 'en' 
+        ? "Gabriel%20Marcondes%20Starling%20Rocha%20NEW%20EN.pdf" 
+        : "Gabriel%20Marcondes%20Starling%20Rocha%20NEW%20PTBR.pdf";
 
     applicationContent.innerHTML = `
 
@@ -226,7 +229,10 @@ function setupPdfViewer() {
     let pdfDocument = null;
     let currentPage = 1;
     let zoom = 1;
-    let selectedPdfUrl = "CV%20Rafael%20Nagem%20Volpini-5.pdf";
+    const lang = typeof getLanguage === 'function' ? getLanguage() : 'pt';
+    let selectedPdfUrl = lang === 'en' 
+        ? "Gabriel%20Marcondes%20Starling%20Rocha%20NEW%20EN.pdf" 
+        : "Gabriel%20Marcondes%20Starling%20Rocha%20NEW%20PTBR.pdf";
 
     function updateControls() {
 
@@ -582,4 +588,6 @@ languageOptions.forEach(
 updateLanguageSelector();
 
 updateSelection();
+
+
 
