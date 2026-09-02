@@ -69,12 +69,6 @@ Apresentará informações sobre o desenvolvedor, sua trajetória, formação e 
 
 Apresentará os projetos desenvolvidos, com suas respectivas descrições, tecnologias utilizadas e links.
 
-#### Seção `/curriculo`
-
-![Protótipo da seção Currículo](prototipos/Curriculo.png)
-
-Apresentará experiências profissionais, formação acadêmica e outras informações relevantes.
-
 #### Seção `/contato`
 
 ![Protótipo da seção Contato](prototipos/contato.png)
@@ -96,12 +90,6 @@ Exibe informações sobre o desenvolvedor.
 ```
 
 Lista os projetos desenvolvidos.
-
-```text
-/curriculo
-```
-
-Exibe experiências profissionais e formação.
 
 ```text
 /contato
