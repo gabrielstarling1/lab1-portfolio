@@ -36,8 +36,6 @@ Abaixo está o protótipo inicial da página:
 
 ![Protótipo da interface inicial](prototipos/TelaInicial.png)
 
-> **Observação:** substituir `prototipos/TelaInicial.png` pela imagem real do protótipo.
-
 A tela inicial apresenta uma identidade visual baseada em terminal:
 
 ```text
