@@ -24,9 +24,9 @@ Ainda não há uma URL de produção configurada. Após publicar a pasta `portfo
 
 O formulário valida nome, e-mail e mensagem e abre o aplicativo de e-mail padrão usando `mailto:gabrielmsrocha@gmail.com`. Para receber envios diretamente no servidor, substitua esse fluxo por um serviço como Formspree ou por uma API própria.
 
-O currículo usado pelo sistema são `portfolio/Gabriel Marcondes Starling Rocha EN.pdf` para língua inglesa e `portfolio/Gabriel Marcondes Starling Rocha PTBR` para língua portuguesa. No OS, selecione **Currículo PDF** e pressione `Enter`. O visualizador PDF.js permite navegar pelas páginas, ajustar o zoom, baixar o arquivo e abrir outro PDF local pelo botão **Abrir PDF**.
+O currículo usado pelo sistema são `portfolio/Gabriel Marcondes Starling Rocha NEW EN.pdf` para língua inglesa e `portfolio/Gabriel Marcondes Starling Rocha NEW PTBR.pdf` para língua portuguesa. No OS, selecione **Currículo PDF** e pressione `Enter`. O visualizador PDF.js permite navegar pelas páginas, ajustar o zoom, baixar o arquivo e abrir outro PDF local pelo botão **Abrir PDF**.
 
-Para publicar, conecte o repositório ao Vercel, Render ou GitHub Pages e defina `portfolio/` como diretório raiz de publicação. Depois atualize a seção **Site publicado** com a URL real.
+Para publicar, conecte o repositório ao Vercel, Render, Netlify ou GitHub Pages e defina `portfolio/` como diretório raiz de publicação. Depois atualize a seção **Site publicado** com a URL real.
 
 ## Preview
 
@@ -43,12 +43,12 @@ A tela inicial apresenta uma identidade visual baseada em terminal:
 ```text
 gabriel@portfolio:~$ whoami
 
-�������+��������+�����+ ������+ ��+     ��+���+   ��+ ������+
-   ��+----++--��+--+��+--��+��+--��+���     �������+  �����+----+
-   �������+   ���   ��������������++���     �����+��+ ������  ���+
-   +----���   ���   ��+--�����+--��+���     ������+��+������   ���
-   ��������   ���   ���  ������  ����������+������ +�����+������++
-   +------+   +-+   +-+  +-++-+  +-++------++-++-+  +---+ +-----+
+███████╗████████╗█████╗ ██████╗ ██╗     ██╗███╗   ██╗ ██████╗
+██╔════╝╚══██╔══╝██╔══██╗██╔══██╗██║     ██║████╗  ██║██╔════╝
+███████╗   ██║   ███████║██████╔╝██║     ██║██╔██╗ ██║██║  ███╗
+╚════██║   ██║   ██╔══██║██╔══██╗██║     ██║██║╚██╗██║██║   ██║
+███████║   ██║   ██║  ██║██║  ██║███████╗██║██║ ╚████║╚██████╔╝
+╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝╚═╝  ╚═══╝ ╚═════╝
 
 STARLING
 ```
@@ -141,8 +141,10 @@ A estrutura inicial do projeto será organizada da seguinte forma:
 portfolio/
 │
 ├── index.html
+├── terminal.html
 ├── README.md
 ├── Gabriel Marcondes Starling Rocha NEW PTBR.pdf
+├── Gabriel Marcondes Starling Rocha NEW EN.pdf
 │
 ├── assets/
 │   ├── images/
@@ -156,10 +158,16 @@ portfolio/
 │   └── gifs/
 │
 ├── css/
-│   └── style.css
+│   ├── style.css
+│   ├── os.css
+│   └── boot.css
 │
 └── js/
-    └── script.js
+    ├── app.js
+    ├── boot.js
+    ├── data.js
+    ├── i18n.js
+    └── os.js
 ```
 
 A estrutura poderá ser modificada conforme o desenvolvimento do projeto evoluir.
@@ -197,21 +205,16 @@ A ideia é proporcionar ao visitante a sensação de estar explorando um termina
 
 ## Próximas etapas
 
-* [ ] Implementar a tela inicial com `TESTE`
-* [ ] Implementar a estrutura visual do terminal
-* [ ] Implementar o sistema de comandos
-* [ ] Criar a seção `/sobre`
-* [ ] Criar a seção `/habilidades`
-* [ ] Criar a seção `/projetos`
-* [ ] Criar a seção `/curriculo`
-* [ ] Criar a seção `/contato`
-* [ ] Adicionar GitHub
-* [ ] Adicionar LinkedIn
-* [ ] Adicionar WhatsApp
-* [ ] Adicionar imagens dos protótipos
-* [ ] Adicionar GIFs dos projetos
-* [ ] Substituir os textos fictícios pelas informações reais
+* [x] Implementar a tela inicial
+* [x] Implementar a estrutura visual do terminal
+* [x] Implementar o sistema de comandos
+* [x] Criar a seção `/sobre`
+* [x] Criar a seção `/projetos`
+* [x] Criar a seção `/curriculo`
+* [x] Criar a seção `/contato`
+* [x] Adicionar GitHub
+* [x] Adicionar LinkedIn
+* [x] Adicionar WhatsApp
+* [x] Substituir os textos fictícios pelas informações reais
 * [ ] Implementar responsividade para celular
 * [ ] Realizar testes de usabilidade e navegação
-
-
