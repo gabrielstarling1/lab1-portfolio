@@ -1,6 +1,6 @@
 # Terminal Portfolio — Starling OS
 
-Portfolio pessoal desenvolvido com uma interface inspirada em um terminal de computador.
+Portfolio pessoal *em desenvolvimento* com uma interface inspirada em um terminal de computador.
 
 A proposta é apresentar informações profissionais de forma interativa, permitindo que o visitante navegue pelo conteúdo utilizando comandos digitados diretamente no terminal. O conteúdo é individual e pode ser personalizado em `portfolio/js/data.js`.
 
@@ -27,14 +27,6 @@ O formulário valida nome, e-mail e mensagem e abre o aplicativo de e-mail padr�
 O currículo usado pelo sistema são `portfolio/Gabriel Marcondes Starling Rocha NEW EN.pdf` para língua inglesa e `portfolio/Gabriel Marcondes Starling Rocha NEW PTBR.pdf` para língua portuguesa. No OS, selecione **Currículo PDF** e pressione `Enter`. O visualizador PDF.js permite navegar pelas páginas, ajustar o zoom, baixar o arquivo e abrir outro PDF local pelo botão **Abrir PDF**.
 
 Para publicar, conecte o repositório ao Vercel, Render, Netlify ou GitHub Pages e defina `portfolio/` como diretório raiz de publicação. Depois atualize a seção **Site publicado** com a URL real.
-
-## Preview
-
-### Protótipo da interface
-
-Abaixo está o protótipo inicial da página:
-
-![Protótipo da interface inicial](prototipos/TelaInicial.png)
 
 A tela inicial apresenta uma identidade visual baseada em terminal:
 
